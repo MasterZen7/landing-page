@@ -29,7 +29,7 @@
     display: flex;
     font-size: small;
     margin-left: auto;
-    padding-right: 400px;
+    margin-right: auto;
     color: #e5e7eb;
     font-weight: 500;
     font-size: 18px;
@@ -63,12 +63,15 @@
     width: 405px;
     height: 205px;
     margin-right: 150px;
-    background-color: grey;
+    margin-top: 50px;
+    
 }
 
 .sectiononeimage {
-    width: 400px;
-    height: 200px;
+    border: #1F2937 solid;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
 }
 
 .sectiononeh1 {
@@ -94,24 +97,42 @@
 }
 
 .boxonecontainer {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.boxonecontainer:hover {
+    width: 350px;
+    height: 350px;
 }
 
 .sectiontwoboximage {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
     border: 2px solid #1F2937;
+    transition: 1s;
 }
+
+.sectiontwoboximage:hover {
+    width: 350px;
+    height: 350px;
+}
+
 
 .boxes {
     display: flex;
     justify-content: space-evenly;
-    height: 300px;
+    height: 400px;
+}
+
+.boxonetext {
+    text-align: center;
 }
 
 .sectionthree {
