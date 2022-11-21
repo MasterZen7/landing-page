@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.containerColumn {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header,
+section:nth-of-type(1) {
+    background-color: #1f2937;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: inline-block;
+    margin-right: 250px;
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0px 20px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+}
+
+.heroText {
+    width: 50%;
+    padding-top: 50px;
+}
+
+
+
+.imgBg {
+    width: 70%;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+h2 + p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroBtn {
+    cursor: pointer;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
+    padding: 10px 30px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+.imgPlaceholder {
+    background-color: #6d747d;
+    width: 50%;
+    margin: auto;
+    height: 15rem;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding-top: 20px;
+    width: 20%;
+}
+
+.cardImgPlaceholder {
+    height: 15rem;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card > p {
+    text-align: center;
+}
+
+section:nth-of-type(3) {
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+h4 {
+    width: 35%;
+    margin-left: auto;
+}
+
+section:nth-of-type(4) {
+    padding: 50px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px;
+}
+
+.actionText {
+    width: 60%;
+    color: #E5E7EB;
+}
+
+.actionBtn {
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+h5 + p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.actionBtn {
+    cursor: pointer;
+    border-radius: 5px;
+    border: #E5E7EB 2px solid;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+@media (max-width: 1200px) and (min-width: 920px) {
+    .container {
+        width: 100%;
+    }
+    ul {
+        width: 80%;
+    }
+}
+
+@media (max-width: 920px) and (min-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    ul {
+        display: inline;
+    }
+    li {
+        display: inline;
+        font-size: 13px;
+    }
+    .heroText {
+        width: 100%;
+    }
+    .imgBg {
+        width: 100%;
+        margin: auto;
+    }
+    .imgPlaceholder {
+        width: 100%;
+    }
+    .card {
+        width: 45%;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h5 + p {
+        font-size: 13px;
+    }
+    .actionBtnBG {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 360px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    ul {
+        margin-top: 50px;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    li {
+        width: 200%;
+        display: inline-block;
+        font-size: 10px;
+
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .heroText {
+        width: 100%;
+        text-align: center;
+    }
+    .imgBg {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    h4 {
+        width: 50%;
+    }
+    .action {
+        display: flex;
+        flex-direction: column;
+    }
+    .actionText {
+        width: 100%;
+        text-align: center;
+    }
+    .actionBtnBG {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
