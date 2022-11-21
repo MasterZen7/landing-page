@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -207,9 +211,6 @@ a:visited {
 }
 
 @media (max-width: 1200px) and (min-width: 920px) {
-    body {
-        overflow-x: hidden;
-    }
     .container {
         width: 100%;
     }
@@ -219,9 +220,6 @@ a:visited {
 }
 
 @media (max-width: 920px) and (min-width: 576px) {
-    body {
-        overflow-x: hidden;
-    }
     .container {
         width: 100%;
     }
@@ -260,11 +258,11 @@ a:visited {
 }
 
 @media (max-width: 576px) and (min-width: 360px) {
-    body {
-        overflow-x: hidden;
-    }
     .container {
         width: 100%;
+    }
+    nav {
+        width: 50%;
     }
     h1 {
         font-size: 36px;
@@ -272,7 +270,6 @@ a:visited {
     ul {
         margin-top: 50px;
         display: inline-block;
-        margin-left: 50px;
     }
     li {
         width: 200%;
