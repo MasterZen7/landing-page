@@ -1,2 +1,10 @@
-In this project I will use basic HTML and CSS knowledge to make landing page.
-Live page: https://masterzen7.github.io/landing-page/
+# Landing page
+
+## About
+Landing page template
+
+## Technologies used
+HTML5, CSS3
+
+## Preview
+https://masterzen7.github.io/landing-page/
